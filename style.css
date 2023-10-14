@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(240, 150, 32);
+}
+h1{
+    text-align: center;
+}
+div#dentro { 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    height: 350px;
+    width:  350px;
+    border-radius: 50em;
+    
+    
+}
+div#fora {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(238, 232, 232);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50em;
+}
+    
+div#dentro > span {
+    position: absolute;
+    color:rgb(255, 255, 255); 
+    font-size: 2em;
+    text-shadow: 0.05em 0.05em black; 
+}
+
+
+img {
+    height: 300px;
+    width: 300px;
+    border-top: 10px solid rgba(81, 224, 9, 0.575);
+    border-left: 10px solid rgba(81, 224, 9, 0.575);
+    border-right: 5px solid rgba(81, 224, 9, 0.575);
+    border-bottom: 5px solid rgba(81, 224, 9, 0.575);
+    border-radius: 50em;
+}
